@@ -1,0 +1,60 @@
+.bg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+  padding: 15px;
+}
+.latest-match-container {
+  display: flex;
+  flex-direction: column;
+}
+.RCB {
+  background-image: linear-gradient(to bottom, #a4261d, #0f172a);
+}
+.MI {
+  background-image: linear-gradient(to bottom, #13418b, #0f172a);
+}
+.DC {
+  background-image: linear-gradient(to bottom, #4f5db0, #0f172a);
+}
+.KXP {
+  background-image: linear-gradient(to bottom, #d91c1f, #0f172a);
+}
+.CSK {
+  background-image: linear-gradient(to bottom, #f7db00, #0f172a);
+}
+.RR {
+  background-image: linear-gradient(to bottom, #da237b, #0f172a);
+}
+.SH {
+  background-image: linear-gradient(to bottom, #f26d22, #0f172a);
+}
+.KKR {
+  background-image: linear-gradient(to bottom, #13418b, #0f172a);
+}
+.banner {
+  margin-top: 45px;
+}
+
+@media screen and (max-width: 576px) {
+  .bg-container {
+    width: 80%;
+  }
+  .banner {
+    width: 100%;
+  }
+}
+.un-order {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  flex-direction: column;
+}

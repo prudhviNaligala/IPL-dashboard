@@ -1,0 +1,34 @@
+.latest-matches-background {
+  display: flex;
+  flex-direction: column;
+  background-color: #0f172a;
+  padding: 19px;
+}
+@media screen and(max-width:785px) {
+  .latest-matches-background {
+    width: 200px;
+  }
+}
+.latest-match-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  height: 200px;
+  width: 200px;
+  margin-top: 45px;
+}
+.team-heading {
+  font-family: 'Bree serif';
+  color: #ffffff;
+  font-size: 17px;
+  font-weight: 400;
+}
+.all-paras {
+  font-family: 'Bree serif';
+  color: #ffffff;
+}
+.competing-team {
+  font-size: 30px;
+}
